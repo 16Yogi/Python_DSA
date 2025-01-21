@@ -14,13 +14,14 @@
 # Python 3 program to find 
 # third Largest element in 
 # an array of distinct elements 
+
+
 import sys 
 def thirdLargest(arr, arr_size): 
 
 	# There should be 
 	# atleast three elements 
 	if (arr_size < 3): 
-	
 		print(" Invalid Input ") 
 		return
 	
